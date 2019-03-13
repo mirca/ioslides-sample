@@ -1,0 +1,35 @@
+/* This is a sample CSS that demonstrates how
+ * we can use it to customize ioslides*/
+
+
+/* First, we want to create a custom property to
+ * change the distance between the title of the slide and the text
+ * that follows. Note the negative sign that indicates
+ * to move the text towards the top. */
+#short-distance-title-to-text {
+  margin-top: -10px;
+}
+
+/* The previous property is a custom one (it begins with #,
+ * but it could have been any other valid symbol).
+ * But now, let's change a standard property like ul (unordered list)
+ * and li (list item).
+ * We want bigger bullet sizes for unordered lists.
+ * Note that this is not an optimal solution, try making the font size bigger
+ * to see what happens. Basically, you also need to change the margin-top
+ * and padding-left attributes to align the bullets with the text*/
+ul {
+   list-style: none
+}
+li::before {content: "•";
+            color: red;
+            font-size: 50px;
+            margin-top: -15px;
+            padding-left: 20px;
+           }
+
+/* Now, the defaul body-text font color of ioslides is kinda 80% grey
+ * or so, let's make it black.*/
+slides > slide {
+    color: #000000;
+}

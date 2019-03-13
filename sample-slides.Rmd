@@ -1,0 +1,32 @@
+---
+title: "Habits"
+author: John Doe
+date: March 22, 2005
+output:
+  ioslides_presentation:
+    css: style.css
+---
+
+# In the morning
+
+## Getting up {#short-distance-title-to-text}
+
+- Turn off alarm
+- Get out of bed
+
+## Breakfast {#bigger-bullet-size}
+
+- Eat eggs
+- Drink coffee
+
+# In the evening
+
+## Dinner
+
+- Eat spaghetti
+- Drink wine
+
+## Going to sleep
+
+- Get in bed
+- Count sheep
