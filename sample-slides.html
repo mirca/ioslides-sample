@@ -3113,6 +3113,12 @@ font-size: 50px;
 margin-top: -15px;
 padding-left: 20px;
 }
+ul > li > ul > li::before {content: "•";
+color: blue;
+font-size: 28px;
+margin-top: 0px;
+padding-left: 0px;
+}
 
 slides > slide {
 color: #000000;
@@ -3148,7 +3154,16 @@ color: #000000;
 
 <ul>
 <li>Eat eggs</li>
-<li>Drink coffee</li>
+<li>Drink coffee
+
+<ul>
+<li>Drink Latte</li>
+<li>Or maybe Tea?
+
+<ul>
+<li>forget it, I’m drinking Monster</li>
+</ul></li>
+</ul></li>
 </ul>
 
 </article></slide><slide class="segue dark nobackground level1"><hgroup class = 'auto-fadein'><h2>In the evening</h2></hgroup><article  id="in-the-evening">

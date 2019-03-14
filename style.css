@@ -28,6 +28,12 @@ li::before {content: "•";
             padding-left: 20px;
            }
 
+ul > li > ul > li::before {content: "•";
+                           color: blue;
+                           font-size: 28px;
+                           margin-top: 0px;
+                           padding-left: 0px;
+                          }
 /* Now, the defaul body-text font color of ioslides is kinda 80% grey
  * or so, let's make it black.*/
 slides > slide {

@@ -18,6 +18,9 @@ output:
 
 - Eat eggs
 - Drink coffee
+  + Drink Latte
+  + Or maybe Tea?
+    + forget it, I'm drinking Monster
 
 # In the evening
 
